@@ -1,1 +1,1 @@
-# north-american-first-nations-massacres
+# north-american-first-nations
