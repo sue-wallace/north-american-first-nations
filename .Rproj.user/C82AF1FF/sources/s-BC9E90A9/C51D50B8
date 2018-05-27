@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1526828855518.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C51D50B8",
+    "lastKnownWriteTime" : 1527439163,
+    "last_content_update" : 1527439163988,
+    "path" : "~/Documents/R_Projects/massacre_map/mass_map.R",
+    "project_path" : "mass_map.R",
+    "properties" : {
+        "cursorPosition" : "20,15",
+        "docOutlineVisible" : "0",
+        "scrollLine" : "10",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,54 @@
+#I have a data frame as follows:
+
+library(readxl)
+library(leaflet)
+library(dplyr)
+library(htmltools)
+library(shiny)
+library(shinythemes)
+
+#read in data----
+
+d <-read_xlsx("massacres.xlsx")
+#I'm trying to get my map to react to a select input but when running the code I get the following error message:
+
+#Length of logical index vector must be 1 or 9 (the number of columns), not 25
+#There are 9 columns in my real data, and 25 rows, so this does make some sense. I just can't figure out how to amend my code. What I want is a drop down list sorted by unique T_name, and when a new T_name is selected the map updates with only data from that T_name.
+
+# UI
+
+
+ui <- {fluidPage(theme = shinytheme("spacelab"), "Massacres in North America involving First Nations Peoples:1500-1700", 
+                 sidebarLayout(
+                   sidebarPanel(
+                     selectInput(inputId = "input1", label = "Tribe name" ,choices = 
+                                   unique(d$Tribe_name))
+                     
+                   ),
+                   
+                   mainPanel(
+                     leafletOutput("mymap"))
+                 )
+)}
+
+
+server <- function(input, output) {
+  react <- reactive({
+    req(input$input1)
+    df <- d[d$Tribe_name == input$input1,]
+    df
+  })
+  output$mymap <- renderLeaflet({ req(input$input1)
+    
+    leaflet(data = react()) %>% addTiles() %>% setView(lng = -100.94, lat = 38.94 , zoom = 3.5) %>% 
+      addProviderTiles(providers$Esri.NatGeoWorldMap) %>% 
+      addMarkers(lng = ~longitude, lat= ~latitude, 
+                 popup = paste(react()$massacre_name, "<br>", "Date:", react()$date, 
+                               "<br>", "Number of native casualties:", react()$native_casualties,
+                               "<b><a href"= react()$web))
+    
+  })
+}
+
+
+shinyApp(ui, server)
