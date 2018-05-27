@@ -6,13 +6,13 @@ This map can be used to gain insight into the massacres that took place in north
 
 The inspiration for this map comes from the book ['An Inconvenient Indian'](https://www.amazon.co.uk/Inconvenient-Indian-Curious-Account-America/dp/0816689768) by Thomas King, who describes European colonialism towards native people as a condition much like malaria:
 
-'Malaria, in case you've fotgotten, is an infectious disease that sickens and kills millions of people every year. It's a remarkable disease. Like colonialism, it can lie dormant for years. And it can flare up at any moment'
+"Malaria, in case you've fotgotten, is an infectious disease that sickens and kills millions of people every year. It's a remarkable disease. Like colonialism, it can lie dormant for years. And it can flare up at any moment"
 
 ## Getting Started
 
 You can clone this repo by typing the following into the command line:
 ```
-git clone https://github.com/mrmoleje/r-markdown-examples.git 
+git clone https://github.com/mrmoleje/north-american-first-nations.git 
 ```
 ### Prerequisites
 
