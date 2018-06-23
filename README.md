@@ -1,4 +1,4 @@
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `This application is under development`
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) This application is under development :construction:
 
 # Massacres of first nation peoples: 1500-1700
 
