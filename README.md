@@ -1,10 +1,10 @@
-##This application is under development
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `This application is under development`
 
 # Massacres of first nation peoples: 1500-1700
 
 A shiny app for massacres that took place in North America (USA and Canada) between 1500 and 1700.
 
-Run the app ['Here'](https://mrmoleje.shinyapps.io/north-america-massacres/) 
+Run the app ['here'](https://mrmoleje.shinyapps.io/north-america-massacres/) 
 
 This map can be used to gain insight into the massacres that took place in north america within the given time frame, as well as understanding which tribe was under attack, as well as how many died.
 
