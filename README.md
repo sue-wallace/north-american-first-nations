@@ -1,4 +1,4 @@
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) :thumbsdown: :small_red_triangle: This application is under development :construction:
+:warning: This application is under development :warning:
 
 # Massacres of first nation peoples: 1500-1700
 
