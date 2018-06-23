@@ -1,0 +1,13 @@
+name: north-america-first-nations
+title: north-america-first-nations
+username:
+account: mrmoleje
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 365898
+bundleId: 1444971
+url: https://mrmoleje.shinyapps.io/north-america-first-nations/
+when: 1529781025.96444
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|~$massacres.xlsx|mass_map.R|massacres.xlsx|README.md|shinyapp_template.R

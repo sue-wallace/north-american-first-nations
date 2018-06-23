@@ -1,0 +1,13 @@
+name: north-america-massacres
+title: North-america-massacres
+username:
+account: mrmoleje
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 365905
+bundleId: 1445039
+url: https://mrmoleje.shinyapps.io/north-america-massacres/
+when: 1529785727.40881
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|~$massacres.xlsx|massacres_map.R|README.md|shinyapp_template.R
