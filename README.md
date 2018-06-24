@@ -18,7 +18,7 @@ You can clone this repo by typing the following into the command line:
 ```
 git clone https://github.com/mrmoleje/north-american-first-nations.git 
 ```
-### Prerequisites
+## Pre-requisites
 
 In order to run the map you'll need R Studio installed, as well as the following libraries (shiny, leaflet, dplyr, htmltools, readxl).
 
