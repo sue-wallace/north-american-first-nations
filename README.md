@@ -4,7 +4,7 @@
 
 A shiny app for massacres that took place in North America (USA and Canada) between 1500 and 1700.
 
-Run the app ['here'](https://mrmoleje.shinyapps.io/north-america-massacres/) 
+Run the app ['here'](https://mrmoleje.shinyapps.io/north-america-massacres/). Note that the application is under development and isn't fully functioning. 
 
 This map can be used to gain insight into the massacres that took place in north america within the given time frame, as well as understanding which tribe was under attack and how many died.
 
